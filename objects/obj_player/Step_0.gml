@@ -28,7 +28,14 @@ show_debug_message(string(move_x));
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_floor"
 /// @DnDSaveInfo : "object" "obj_floor"
-var l0B5B2360_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l0B5B2360_0 > 0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+var l0B5B2360_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l0B5B2360_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 461FDAD6
+	/// @DnDParent : 0B5B2360
+	/// @DnDArgument : "var" "move_y"
+	move_y = 0;
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 	/// @DnDVersion : 1
 	/// @DnDHash : 3EB6B35C
 	/// @DnDParent : 0B5B2360

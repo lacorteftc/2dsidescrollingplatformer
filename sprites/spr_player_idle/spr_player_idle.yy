@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_player_idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":751,
   "bbox_left":0,
   "bbox_right":624,
@@ -23,7 +23,7 @@
   ],
   "name":"spr_player_idle",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -77,8 +77,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":312,
+    "yorigin":376,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
