@@ -34,9 +34,8 @@ if(move_y > 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "2"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_floor"
-/// @DnDSaveInfo : "object" "obj_floor"
-var l590B9DE5_0 = instance_place(x + 0, y + 2, [obj_floor]);if ((l590B9DE5_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "object" "collison_tilemap"
+var l590B9DE5_0 = instance_place(x + 0, y + 2, [collison_tilemap]);if ((l590B9DE5_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A4F12C0
 	/// @DnDComment : moving left
