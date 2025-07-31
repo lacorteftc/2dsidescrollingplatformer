@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_player_jump",
-  "bboxMode":0,
-  "bbox_bottom":435,
+  "bboxMode":2,
+  "bbox_bottom":437,
   "bbox_left":0,
-  "bbox_right":367,
+  "bbox_right":369,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
